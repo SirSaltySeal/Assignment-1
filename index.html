@@ -2,48 +2,38 @@
 <html>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <head class = "flex-container">
-        <title>
-            Portfolio
-        </title>
-        <h1 class="flex-item">
-         CLIFORD
-         <br>
-         TANUCAN
-        </h1>
-    </head>
     <body>
-        <nav>
-            <div class = "flex-container">  
-                <div class="flex-item">
-                    <a href="painting.html">Painting</a>
-                </div>
-                <div class="flex-item">
-                    <a href="sketches.html">Sketches</a>
-                </div>
-                <div class="flex-item">
-                    <a href="work.html">Work</a>
-                </div>
-                <div class="flex-item">
-                    <a href="wips.html">WIPs</a>
-                </div>
+        <div class="container">
+            <h1>CLIFORD
+                <br>
+                TANUCAN
+            </h1>
+            
+            <div class="image-container">
+                <div class="image"><img src="images/Gray Practice.png" alt=""></div>
+                <div class="image"><img src="images/Figure XI.png" alt=""></div>
+                <div class="image"><img src="images/Asuka Rework.png" alt=""></div>
+                <div class="image"><img src="images/Figure XII.png" alt=""></div>
+                <div class="image"><img src="images/Figure XIII.png" alt=""></div>
+                <div class="image"><img src="images/Practice 1.png" alt=""></div>
             </div>
-        </nav>
-        <div>
-            <div class="flex-item">
-                <a href="contact.html">Contact</a>
-            </div>
-            <div class="flex-item">
-                <a href="email.html">cliford7tanucan@gmail.com</a>
+
+            <div class="popup-image">
+                <span>&times;</span>
+                <img src="images/Gray Practice.png" alt="">
             </div>
         </div>
-        <div class="image-container">
-            <div class="image"><img src="images/Gray Practice.png" alt=""></div>
-            <div class="image"><img src="images/Figure XI.png" alt=""></div>
-            <div class="image"><img src="images/Asuka Rework.png 1.png" alt=""></div>
-            <div class="image"><img src="images/Figure XII.png" alt=""></div>
-            <div class="image"><img src="images/Figure XIII.png" alt=""></div>
-            <div class="image"><img src="images/Practice 1.png" alt=""></div>
-        </div>
+
+        <script>
+            document.querySelectorAll(".image-container img").forEach(image =>{
+                image.onclick = () =>{
+                    document.querySelector(".popup-image").style.display = "block";
+                }
+            });
+
+            document.querySelector(".popup-image span").onclick = () =>{
+                document.querySelector(".popup-image").style.display = "none";
+            }
+        </script>
     </body>
 </html>
