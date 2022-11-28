@@ -22,7 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    justify-content: center;
+    justify-content: left;
     padding: 10px;
 }
 
@@ -35,14 +35,14 @@
     cursor: pointer;
 }
 
-.container .image-container .image .img{
+.container .image-container .image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     transition: .2s linear;
 }
 
-.container .image-container .image:hover .img{
+.container .image-container .image:hover img{
     transform: scale(1.1);
 }
 
