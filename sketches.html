@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <body>
+        <div class="container">
+            <title>
+                Porfolio
+            </title>
+            <nav>
+                <ul class = "flex-container">
+                    <h1>ZHONG
+                        <br>
+                        ZHOU
+                    </h1>
+                    <div class='test'>
+                        <li class="flex-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="flex-item">
+                            <a href="painting.html">Painting</a>
+                        </li>
+                        <li class="flex-item">
+                            <a href="sketches.html">Sketches</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+            
+            <div class="image-container">
+                <div class="image"><img src="images/Concept 1.jpg" alt=""></div>
+                <div class="image"><img src="images/Concept 2.jpg" alt=""></div>
+                <div class="image"><img src="images/Concept 3.jpg" alt=""></div>
+                
+
+            </div>
+
+            <div class="popup-image">
+                <span>&times;</span>
+                <img src="images/zhong-zhou-1.jpg" alt="">
+            </div> 
+        </div>
+        <script>
+            document.querySelectorAll(".image-container img").forEach(image =>{
+                image.onclick = () =>{
+                    document.querySelector(".popup-image").style.display = "block";
+                    document.querySelector(".popup-image img").src = image.getAttribute("src");
+                }
+            });
+
+            document.querySelector(".popup-image span").onclick = () =>{
+                document.querySelector(".popup-image").style.display = "none";
+            }
+        </script>
+    </body>
+
+    <footer>
+        <a href="https://www.artstation.com/zhongzhou">Contact</a>
+    </footer>
+
+    
+</html>

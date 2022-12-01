@@ -52,7 +52,6 @@ a{
     gap: 15px;
     justify-content: left;
     padding: 10px;
-    background: rgb(150, 0, 0);
 }
 
 .container .image-container .image{
@@ -104,10 +103,21 @@ a{
     object-fit: cover;
 }
 
-.contact1{
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    flex-basis: 150px;
     font-size: 20px;
-    background: rgb(227, 0, 215);
-    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 174, 218);
+    margin-top: auto;
 }
 
 @media(max-width:768px){
