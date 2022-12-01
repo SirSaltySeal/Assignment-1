@@ -23,7 +23,7 @@
 .test {
     position: absolute;
     top: 50px;
-    right: 35%
+    right: 5%
 }
 
 a{
@@ -38,6 +38,8 @@ a{
 
 
 .container h1{
+    position: relative;
+    left: 80px;
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
@@ -111,7 +113,7 @@ body{
 
 footer{
     display: flex;
-    flex-basis: 150px;
+    flex-basis: 100px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
