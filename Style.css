@@ -20,15 +20,30 @@
     display: inline-block;
     align-self: center;
 }
-.test {
+.container2{
+    display: flex;
     position: absolute;
     top: 50px;
     right: 5%
 }
 
-a{
+.container2 a{
+    position: relative;
+    display: inline-block;
     color:#333;
     text-decoration: none;
+    padding: 10px 30px;
+    border: #333 solid 2px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+footer a{
+    color:#333;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: #333 solid 2px;
+    letter-spacing: 2px;
 }
 
 .container{
@@ -36,8 +51,12 @@ a{
     
 }
 
+a:hover{
+    color: rgb(255, 255, 255);
+}
 
-.container h1{
+
+.flex-container h1{
     position: relative;
     left: 80px;
     font-size: 35px;
@@ -46,6 +65,7 @@ a{
     padding: 15px;
     color:#333;
     text-align: left;
+    letter-spacing: 2px;
 }
 
 .container .image-container{
