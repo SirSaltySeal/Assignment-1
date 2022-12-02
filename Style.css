@@ -7,6 +7,7 @@
 .flex-container{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 45px;
     background: rgb(0, 174, 218);
 }
@@ -22,6 +23,7 @@
 }
 .container2{
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
     top: 50px;
     right: 5%
