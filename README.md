@@ -8,7 +8,11 @@ The design is minimalistic and direct. The audience can easily navigate around t
 
 # Features
 
+The audience can see the thumbnails of the artwork or they can also click the thumbnail and it will show a bigger and clearer version of the artwork. Furthermore, on mobile devices the navigation bar at the top right of the webpage will turn into a drop down box.
+
 # Technologies Used
+
+HTML, CSS, Javascript, JQuery
 
 # Testing
 
