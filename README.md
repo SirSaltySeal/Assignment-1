@@ -26,3 +26,7 @@ HTML, CSS, Javascript, JQuery
    Goes to Artstation for audience to be able to contact artist
 
 # Credits
+
+1. Content
+
+- The Popup Image and Image assembly code for HTML, CSS and Javascript were copied from (https://www.youtube.com/watch?v=QghhoJBdw7A&list=PLA2I3BM7e7ofro5BmzFcbcijqrDhFkGTp&index=3&t=159s&ab_channel=Mr.WebDesigner). (Create A Responsive Popup Image Gallery Using HTML CSS And Vanilla Javascript) by Mr. Web Designer
