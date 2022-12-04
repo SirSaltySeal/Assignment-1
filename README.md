@@ -1,8 +1,10 @@
 # Portfolio
 
-This website is aimed towards potential employers to showcase my skills and works. The goal is for them to view my works in a neat and aesthetic fashion
+This website is aimed towards potential employers to showcase an artist skills and works. The goal is for potential employers to hire the artist. The website is designed in a way that is intuitive and aesthetic.
 
 # Design
+
+The design is minimalistic and direct. The audience can easily navigate around the webpage as the text are placed at strategic locations
 
 # Features
 
