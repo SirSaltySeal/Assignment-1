@@ -16,4 +16,13 @@ HTML, CSS, Javascript, JQuery
 
 # Testing
 
+1. Home link:
+   Goes to the webpage with all the artworks
+2. Painting link:
+   Goes to the webpage with the artworks related to painting
+3. Sketches link:
+   Goes to the webpage with all the concept artworks and sketches
+4. Contact link
+   Goes to Artstation for audience to be able to contact artist
+
 # Credits
