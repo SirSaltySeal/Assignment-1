@@ -31,4 +31,4 @@ HTML, CSS, Javascript, JQuery
 
    - The Popup Image and Image assembly code for HTML, CSS and Javascript were copied from (https://www.youtube.com/watch?v=QghhoJBdw7A&list=PLA2I3BM7e7ofro5BmzFcbcijqrDhFkGTp&index=3&t=159s&ab_channel=Mr.WebDesigner). (Create A Responsive Popup Image Gallery Using HTML CSS And Vanilla Javascript) by Mr. Web Designer.
    - The Navigation bar code for HTML, CSS, Javascript, Dropdown logo, JQuery were copied from (https://www.youtube.com/watch?v=tEC4kqzNTnM&ab_channel=CodingNepal). (Responsive Navigation Menu Bar using HTML CSS & JavaScript) by CodingNepal.
-   - JQuery and the dropdown logo are from (https://releases.jquery.com/)(jQuery 3.x) and
+   - JQuery and the dropdown logo are from (https://releases.jquery.com/)(jQuery 3.x) and (https://use.fontawesome.com/releases/v5.6.3/css/all.css) respectively
