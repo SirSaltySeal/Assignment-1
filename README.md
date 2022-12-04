@@ -35,6 +35,7 @@ HTML, CSS, Javascript, JQuery
    - JQuery and the dropdown logo are from (https://releases.jquery.com/)(jQuery 3.x) and (https://use.fontawesome.com/releases/v5.6.3/css/all.css) respectively
 
 2. Media
+
    - All the media in this website were obatined from (https://www.artstation.com/zhongzhou)
      - https://cdna.artstation.com/p/assets/images/images/056/662/416/4k/zhong-zhou-1.jpg?1669804660
      - https://cdna.artstation.com/p/assets/images/images/056/662/420/4k/zhong-zhou-2.jpg?1669804565
@@ -44,3 +45,6 @@ HTML, CSS, Javascript, JQuery
      - https://cdnb.artstation.com/p/assets/images/images/052/009/103/4k/zhong-zhou-2.jpg?1658742784
      - https://cdna.artstation.com/p/assets/images/images/045/005/646/4k/zhong-zhou-1.jpg?1641698705
      - https://cdna.artstation.com/p/assets/images/images/044/987/656/4k/zhong-zhou-2.jpg?1641653867
+
+3. Acknowledgements
+   - I received inspiration for this project from Ahmed Aldoori (https://ahmedaldoori.com/paintings)
